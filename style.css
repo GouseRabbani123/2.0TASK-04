@@ -1,0 +1,85 @@
+ *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+ }
+ body{
+     background-image:url(lap.jpg);
+     background-size:100% 100%; 
+     /* the above line sets the background size 100% foe left right ,top and bottom; */
+    }
+ .main{
+     height:100vh;
+     justify-content:center;
+     display:flex;
+     align-items:center;
+     
+ }
+ form{
+     width:400px;height:500px;
+     box-shadow:0 0 10px 1px grey
+    /* //first value indicats "0px" shadow on horizontal direction,
+      2nd value indicates "0px" shadow which means doesnt need to aplly on vertical direction also.
+      3rd value indicate "blur" which gives the blur color for the edges color thet is given inthe next line. which i have given as "10px".
+      4th value indicates the spread which i have given "1px" grey color
+    } */
+}
+/* the difference between width 100% and width inherit :is
+the "inherit" takes the parent div width  which is given before. */
+
+#appname{
+    padding:2px 0 2px 10px;
+    width:inherit;
+    font-size:0.8rem;
+    background-color: #303030 ;
+    color:white;
+    border:none;
+
+}
+#display{
+    width:inherit;
+    height:100px;
+    background-color:#303030;
+    color:white;
+    font-size:2rem;
+    text-align: right;
+    border:none;
+    outline:none;
+
+}
+.layer1{
+    width:inherit;
+    height:90px;
+    display:flex;
+    justify-content: center;
+}
+.layer2{
+     
+    width:101%;
+    height:40px;
+    display:flex;
+    justify-content: center;
+}
+
+/* //this flex:1 is soo importent for giving the equally sized buttons.
+for the entire form. */
+input{flex:1; font-size:1.4rem; color:white;
+    border:1px solid #504f4f; outline: none;}
+
+.numbers{
+    background-color:#101011;
+    color:white;
+}
+#o{
+    background-color:#303030;
+}
+
+.cls{
+background-color: #303030; 
+} 
+
+#clearbutton{
+    font-size:2rem;}
+
+
